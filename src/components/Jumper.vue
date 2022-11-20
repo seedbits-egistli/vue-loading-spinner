@@ -19,10 +19,10 @@ export default {
     styles () {
       return {
         width: this.size,
-        height: this.size,
+        height: this.size
       }
     },
-    innerStyles() {
+    innerStyles () {
       return {
         ...this.styles,
         '--bg-color': this.color
